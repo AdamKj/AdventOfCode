@@ -13,4 +13,4 @@ document.querySelector("pre").split("\n").map(word => {
         return Number(a[0] + a[0])
     }
     return 0
-})
+}).reduce((arr, val) => arr + val, 0)
