@@ -2,7 +2,6 @@ const times = []
 const distances = []
 
 document.querySelector("pre").innerText.split("/n").forEach((item) => {
-    console.log(item.split(":"))
     if (item !== "") {
         const type = item.split(":")[0]
         const values = item.split(":")[1]
